@@ -12,3 +12,10 @@ int bad_apple(int k, int n) {
     }
     return k % n;
 }
+
+int km(int m) {
+    if (m < 0) {
+        return -1;
+    }
+    return m / 1000;
+}
